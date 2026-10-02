@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rafi El Harake</title>
+<meta name="description" content="Games for Android by Rafi El Harake.">
+<style>
+  :root {
+    --bg: #0b1020;
+    --panel: #141a2e;
+    --text: #eef0f7;
+    --muted: #a3abc2;
+    --accent: #ffc46b;
+    --border: #2a3350;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 48px 16px;
+  }
+  main { width: 100%; max-width: 560px; }
+  h1 { font-size: 1.9rem; margin: 0 0 4px; }
+  .tag { color: var(--muted); margin: 0 0 40px; }
+  h2 {
+    font-size: .8rem;
+    text-transform: uppercase;
+    letter-spacing: .09em;
+    color: var(--muted);
+    margin: 0 0 14px;
+    font-weight: 600;
+  }
+  .card {
+    display: block;
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 20px 22px;
+    text-decoration: none;
+    color: inherit;
+  }
+  .card:hover { border-color: var(--accent); }
+  .card h3 { margin: 0 0 6px; font-size: 1.15rem; }
+  .card p { margin: 0; color: var(--muted); font-size: .95rem; }
+  footer {
+    margin-top: 44px;
+    padding-top: 20px;
+    border-top: 1px solid var(--border);
+    color: var(--muted);
+    font-size: .88rem;
+  }
+  footer a { color: var(--accent); }
+  @media (prefers-color-scheme: light) {
+    :root:not([data-theme="dark"]) {
+      --bg: #f6f7fb;
+      --panel: #ffffff;
+      --text: #141a2e;
+      --muted: #5b6480;
+      --accent: #b4760d;
+      --border: #dde1ec;
+    }
+  }
+</style>
+</head>
+<body>
+<main>
+  <h1>Rafi El Harake</h1>
+  <p class="tag">Games for Android.</p>
+
+  <h2>Games</h2>
+  <a class="card" href="https://play.google.com/store/apps/details?id=com.rafielharake.dontletthemburn">
+    <h3>Don&rsquo;t Let Them Burn</h3>
+    <p>You carry the only light in the dark, and a swarm of moths follows it.
+       Collect the orbs, keep them clear of the flames.</p>
+  </a>
+
+  <footer>
+    <a href="https://rafielharake.github.io/dontletthemburn-privacy/">Privacy policy</a>
+    &nbsp;&middot;&nbsp;
+    <a href="mailto:rafiharake4@gmail.com">rafiharake4@gmail.com</a>
+  </footer>
+</main>
+</body>
+</html>
